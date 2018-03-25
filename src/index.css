@@ -1,0 +1,45 @@
+/*
+  All CSS goes in this file because I really can't be bothered to set up SCSS and that.
+*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #EEE;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background-color: #666;
+  overflow: hidden;
+}
+
+.ColumnLeft {
+  height: 100vh;
+  background-color: #333;
+  padding: 3rem;
+  max-width: 30vw;
+  min-width: 15vw;
+}
+
+.ColumnRight {
+  height: 100vh;
+  background-color: #333;
+}
+
+.AIInfoList {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+}
+
+.AIInfoList li {
+  padding: 0.3rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
